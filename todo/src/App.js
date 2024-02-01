@@ -4,7 +4,7 @@ const App = () => {
   return (
         <section id="todo">
             <h1 className="m-3">Liste de tâches</h1>
-            <ul className="list-group m-3">
+            <ul className="list-group m-3ls ">
                 <li className="list-group-item d-flex align-tiems-center justify-content-between">
                     Ranger la vaisselle 
                     <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
