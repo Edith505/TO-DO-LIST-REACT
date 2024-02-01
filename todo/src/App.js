@@ -3,7 +3,7 @@ import { FaListAlt, FaCheckSquare, FaTrash, FaPlusSquare} from "react-icons/fa";
 const App = () => {
   return (
         <section id="todo">
-            <h1 className="m-3">Liste de tâches</h1>
+            <h1 className="m-3 text-success">Liste de tâches</h1>
             <ul className="list-group m-3ls ">
                 <li className="list-group-item d-flex align-tiems-center justify-content-between">
                     Ranger la vaisselle 
@@ -22,13 +22,13 @@ const App = () => {
                     <button className="btn btn-sm ml-auto btn-outline-success">&#x2713;</button>
                 </li>
             </ul>
-            <footer className="d-flex justify-content-between bg-secondary p-3" id="mainFooter">
+            <footer className="d-flex justify-content-between bg-success-subtle bg-gradient p-3" id="mainFooter">
                 <div className="btn-group">
-                    <a href="#" className="btn btn-outline-dark bg-light"><FaListAlt/></a>
-                    <a href="#" className="btn btn-outline-dark bg-light"><FaCheckSquare/></a>
-                    <a href="#" className="btn btn-outline-dark bg-light"><FaPlusSquare/></a>
+                    <a href="#" className="btn btn-outline-success bg-success-subtle"><FaListAlt/></a>
+                    <a href="#" className="btn btn-outline-success bg-success-subtle"><FaCheckSquare/></a>
+                    <a href="#" className="btn btn-outline-success bg-success-subtle"><FaPlusSquare/></a>
                 </div>
-                <button className="btn btn-outline-dark bg-light"><FaTrash/></button>
+                <button className="btn btn-outline-success bg-success-subtle"><FaTrash/></button>
             </footer>
         </section>
   )
